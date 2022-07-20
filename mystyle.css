@@ -1,0 +1,233 @@
+
+.header{
+    background-color: #E6E6E6;
+    height: 100%;
+   
+}
+.header-decurestion{
+
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80vh;
+    font-family: 'Edu SA Beginner', cursive;
+    margin: 30px;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   border-radius: 10px;
+
+}
+.header-text{
+    text-align: start;
+    
+    width: 40%;
+    align-items: center;
+}
+
+.header-images img{
+    
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.header-text h1{
+    font-size: 40px;
+}
+.btn{
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+}
+
+.fa-angle-right{
+    font-size: 20px;
+}
+
+/* end headerr style */
+.main-decurestion{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Edu SA Beginner', cursive;
+
+}
+.match{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 25%;
+    padding: 1rem;
+    height:100%;
+    margin: 1rem;
+}
+.match .btn-match{
+    padding: 15px 20px;
+  margin: 1rem;
+  border-radius: 15px;
+}
+.match .btn-match a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.tansfer{
+
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding: 1rem;
+   gap: 20px;
+
+
+}
+.btn-tansfer{
+ padding: 10px;
+}
+
+.tansfer-card{
+    width: 100%;
+ border: 1px solid gray; 
+ border-radius: 2px;
+ box-shadow: 10px gray;  
+}
+
+/* main style end */
+footer{
+    margin-top: 3rem;
+    background-color: black;
+}
+.footer-decurestion{
+
+color: #E6E6E6;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Edu SA Beginner', cursive;
+padding: 2.5rem;
+}
+
+hr{
+    background-color: #6e6e6e;
+    width: 80%;
+    margin: 1rem;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 80%;
+}
+
+/* Germany match */
+.match-decurestion{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+
+.match-details{
+    display: flex;
+    flex-direction: column;
+    
+  
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid rgb(238, 234, 234);
+    border-radius: 5px;
+}
+
+.match-images{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* small divice */
+
+@media only screen and (max-width: 768px){
+    .main-decurestion{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .match{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        background-color: #E6E6E6;
+    color: black;
+     }
+     .tansfer{
+
+        display: grid;
+       grid-template-columns: repeat(2,1fr);
+       padding: 1rem;
+       gap: 20px;
+    
+    
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+      text-align: center;
+      align-items: center;
+      justify-content: space-evenly;
+       
+    }
+    
+
+}
+@media only screen and (max-width: 600px) {
+
+    .header-decurestion{
+        display: flex;
+    flex-direction: column;
+   
+    }
+    .main-decurestion{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .match{
+        width: 80%;
+        display: flex;
+    flex-direction: column;
+    background-color: #E6E6E6;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Edu SA Beginner', cursive;
+    }
+    .tansfer{
+   
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+       padding: 1rem;
+       gap: 20px;
+    
+    
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+
+
+}
